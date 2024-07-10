@@ -1,0 +1,11 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping> 
+    <class name="com.to.Employee" table="Employee"> 
+    <id name="id"></id> 
+    <property name="firstName"></property>
+    <property name="lastName"></property>
+    </class> 
+</hibernate-mapping>
